@@ -29,4 +29,11 @@ int query(int ind, int low, int high, int l, int r)
 
 int main()
 {
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++) {
+        cin>>a[i];
+    }
+    build(0,0,n-1);
+    query()
 }
