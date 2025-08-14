@@ -1,2 +1,24 @@
-.vscode/
+# VS Code workspace files
 LeetCode.code-workspace
+
+# Configuration and template files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/cpp.code-snippets
+
+# Template and automation files
+template.cpp
+run_cpp.bat
+new_problem.bat
+
+# Input/Output files (test data)
+input.txt
+output.txt
+
+# Compiled executables
+*.exe
+
+# Keep .vscode folder for workspace settings but ignore specific config files
+!.vscode/
+!.vscode/launch.json
+!.vscode/extensions.json
