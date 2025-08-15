@@ -28,12 +28,19 @@ public:
 
 int main() {
     Solution sol;
-    string num;
+    int testCases;
 
-    // Read test cases from input.txt
-    while (getline(cin, num)) {
-        if (!num.empty()) {
-            cout << sol.largestGoodInteger(num) << endl;
+    // Read number of test cases
+    cin >> testCases;
+    cin.ignore(); // Clear the newline after reading testCases
+
+    // Process each test case
+    for (int t = 0; t < testCases; t++) {
+        string input;
+        getline(cin, input);
+
+        if (!input.empty()) {
+            cout << sol.largestGoodInteger(input) << endl;
         }
     }
 
